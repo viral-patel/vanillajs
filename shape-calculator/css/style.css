@@ -1,0 +1,104 @@
+html {
+    color: #222;
+    font-size: 0.8em;
+    line-height: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body, content {
+    height: 100%;
+}
+
+header, content, footer, main {
+    display: block;
+    width: 90%;
+    padding: 0% 5% 2% 5%;
+}
+
+.header-container {
+    position: relative;
+    text-align: left;
+}
+
+.header-container .site-header-text {
+    position: absolute;
+    padding-left: 3%;
+}
+
+.header-container img {
+    width: 100%;
+}
+
+content section {
+    float: left;
+    padding: 1%;
+}
+
+content section article {
+    margin: 1%;    
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.section_text {
+    width: 48%;
+}
+
+.section_form {
+    width: 28%;
+    height: 50%;
+    border: 1px solid #ccc;
+    border-radius: 1%;
+    position: relative;
+}
+
+.step_title {
+    text-align: center;
+}
+
+.div_frm_buttons {
+    position: absolute;
+    bottom: 30px;
+}
+
+.section_ad {
+    margin-left: 0%;
+    padding-left: 1%;
+    padding-right: 0%;
+    width: 18%;
+}
+
+div.advertise {
+    width: 120px;
+    height: 240px;
+    background-color: #ccc;
+    display: table;
+}
+
+div.advertise_text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.selected_shape {
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#step_1_message_placeholder, #step_2_message_placeholder {
+    color: #f00;
+}
+
+.message_placeholder {
+    min-height: 15px;
+}

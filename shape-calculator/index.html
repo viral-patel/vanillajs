@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- SEO Tags -->
+        <meta name="author" content="Viral Patel">
+        <meta name="description" content="Shape Calculator built for interview first stage at BombayWorks">
+        <!-- Open Graph tags -->
+        <meta property="og:title" content="The Shape Calculator" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Shape Calculator built for interview first stage at BombayWorks" />
+        <!-- Separate Style and Logic  -->
+        <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+        <link href="css/style.css" rel="stylesheet" />
+        <title>Shape Calculator :: BombayWorks</title>
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <div class="site-header-text"><h2>Shape Calculator</h2></div>
+                <img src="images/header_bg.gif" alt='Header background' style="background-repeat: repeat;" />
+            </div>
+        </header>
+        <content>
+            <section class="section_text">
+                <article>
+                <h3>Welcome to Shape Calculator</h3>
+                <p class="strong">
+                        Shape Calculator is an interactive web application. To the right you will
+                        find the 3 step application. Follow the instructions in each step.
+                        Clicking cancel will take you back to step 1. Enjoy
+                </p>
+                </article>
+                <article>
+                <p>
+                        A small river named Duden flows by their place and supplies it with the
+                        necessary regelialia. It is a paradisematic country, in which roasted parts of
+                        sentences fly into your mouth.
+                </p>
+                <p>
+                        Even the all-powerful Pointing has no control about the blind texts it is an
+                        almost unorthographic life One day however a small line of blind text by the
+                        name of Lorem Ipsum decided to leave for the far World of Grammar. The
+                        Big Oxmox advised her not to do so, because there were thousands of bad
+                        Commas.
+                </p>
+                </article>
+            </section>
+            <section class="section_form">
+                <div id="form_container">
+                    <form id="frm_shape_calculator">
+                        <div id="frm_shape_calculator_step_1" class="show">
+                            <div class="div_frm_content">
+                                <span class="step_title"><h3>Step 1 : Select your shape</h3></span>
+                                <p>Please select the shape that you would like to calculate the area of and press the button "Go to step 2</p>
+                                <div class="message_placeholder"><span id="step_1_message_placeholder"></span></div>
+                                <div id="shape_selction">
+                                </div>
+                            </div>
+                            <div class="div_frm_buttons">
+                                <button id="step-1-submit" name="step-1-submit">Go to Step 2</button>
+                                or
+                                <a id="step-1-cancel" name="step-1-cancel" href="#">Cancel</a>
+                            </div>
+                        </div>
+                        <div id="frm_shape_calculator_step_2" class="hide">
+                            <div class="div_frm_content">
+                                <span class="step_title"><h3>Step 2 : Insert your values</h3></span>
+                                <p>You have selected a <span id="selected_shape_step_2" class="selected_shape">circle</span>, please input the required variables.</p>
+                                <div class="message_placeholder"><span id="step_2_message_placeholder"></span></div>
+                                <div id="shape_features">
+                                    <p><label for="shape_input_1">Diameter</label><input name="shape_input_1" type="text" id="shape_input_1" value="" placeholder="value"></p>
+                                </div>
+                            </div>
+                            <div class="div_frm_buttons">
+                                <button id="step-2-submit" name="step-2-submit">Go to Step 3</button>
+                                or
+                                <a id="step-2-cancel" name="step-2-cancel" href="#">Cancel</a>
+                            </div>
+                        </div>
+                        <div id="frm_shape_calculator_step_3" class="hide">
+                            <div class="div_frm_content">
+                                <span class="step_title"><h3>Step 3 : Your results</h3></span>
+                                <p>You have calculated the area of a <span id="selected_shape_step_3" class="selected_shape">circle</span> with a <span id="selected_shape_features" class="selected_inputs">diameter of 24</span>.</p>
+                                <p>Below is your result:</p>
+                                <div>
+                                    <h4>The Area is <span id="calculated_area">240</span></h4>
+                                </div>
+                            </div>
+                            <div class="div_frm_buttons">
+                                <button id="step-3-submit" name="step-3-submit">Start Over</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="section_ad">
+                <div class="advertise">
+                    <div class="advertise_text"> <div>120x240 Ad</div>  <div> (Vertical Banner) </div></div>
+                </div>
+            </section>
+        </content>
+        <footer>
+        </footer>
+        <script src="js/app.js" type="module"></script>
+        <script src="js/main.js" type="module"></script>
+    </body>
+</html>
